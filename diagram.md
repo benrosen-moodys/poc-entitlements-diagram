@@ -127,4 +127,6 @@ flowchart LR
             end
         end
     end
+    
+    user-product-change-table --- user-product-sync-process --- mdc-user-access-table
 ```
