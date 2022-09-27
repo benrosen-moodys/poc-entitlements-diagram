@@ -127,4 +127,6 @@ flowchart LR
             end
         end
     end
+    
+    mdc --- document-permission-authorization-endpoint --- mdc-user-access-table
 ```
