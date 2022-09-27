@@ -127,4 +127,6 @@ flowchart LR
             end
         end
     end
+    
+    research-document-change-table --- research-doc-sync-process --- mdc-user-access-table
 ```
