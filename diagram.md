@@ -29,7 +29,9 @@ flowchart LR
         
         subgraph legacy-api[API]
             subgraph legacy-authorization[Authorization]
-                legacy-get-authorization-endpoint[GET]
+                subgraph legacy-document-permission-authorization[Document Permission]
+                    get-legacy-document-permission-endpoint[GET]
+                end
             end
         end
     end
@@ -105,7 +107,9 @@ flowchart LR
             end
             
             subgraph new-authorization[Authorization]
-                document-permission-authorization-endpoint[Document Permission]
+                subgraph new-document-permission-authorization[Document Permission]
+                    get-new-document-permission-endpoint[GET]
+                end
             end
             
             subgraph test[Test]
