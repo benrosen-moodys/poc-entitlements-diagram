@@ -127,4 +127,6 @@ flowchart LR
             end
         end
     end
+    
+    mdc --- kong --- get-legacy-document-permission-endpoint
 ```
