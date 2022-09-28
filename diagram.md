@@ -128,5 +128,5 @@ flowchart LR
         end
     end
     
-    mdc --- get-new-document-permission-endpoint --- mdc-user-access-table
+    mdc --- kong --- get-new-document-permission-endpoint --- mdc-user-access-table
 ```
