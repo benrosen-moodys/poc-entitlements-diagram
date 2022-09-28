@@ -1,5 +1,9 @@
 ```mermaid
 flowchart LR
+    kong[Kong]
+    
+    splunk[Splunk]
+    
     clover[Clover]
     
     sfdc[Salesforce]
