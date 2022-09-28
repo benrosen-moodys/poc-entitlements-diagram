@@ -122,9 +122,4 @@ flowchart LR
             end
         end
     end
-    
-    api-test-process --- user
-    api-test-process --- product
-    api-test-process --- research-doc
-    api-test-process --- test
 ```
