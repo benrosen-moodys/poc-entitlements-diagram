@@ -127,4 +127,8 @@ flowchart LR
             end
         end
     end
+    
+    splunk --- parity-checker
+    parity-checker --- legacy-get-authorization-endpoint
+    parity-checker --- document-permission-authorization-endpoint
 ```
