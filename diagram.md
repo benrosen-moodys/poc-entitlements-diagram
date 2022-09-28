@@ -42,6 +42,7 @@ flowchart LR
         
         subgraph test-processes[Test Processes]
             api-test-process[API Test Process]
+            parity-checker[Parity Checker]
         end
         
         subgraph dynamodb[DynamoDB]
