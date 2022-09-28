@@ -105,7 +105,9 @@ flowchart LR
             end
             
             subgraph new-authorization[Authorization]
-                document-permission-authorization-endpoint[Document Permission]
+                subgraph new-document-permission-authorization[Document Permission]
+                    get-new-document-permission-endpoint[GET]
+                end
             end
             
             subgraph test[Test]
